@@ -1,0 +1,133 @@
+.header {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #7F8A9B;
+  padding-bottom: 20px;
+  max-width: 906px;
+  margin-bottom: 25px;
+
+}
+
+.header__img-logo-container {
+  display: flex;
+  
+}
+
+.header__img-logo {
+  width: 42px;
+  height: 42px;
+  margin-right: 10px;
+}
+
+.header__info-wrapper {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.header__img-logo-name-company {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+.header__img-logo-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #7F8A9B;
+  margin: 0;
+  text-align: left;
+}
+
+.header__arrowdown {
+  background-image: url(../../../../../images/arrowdown.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.header__profile-container {
+  display: flex;
+  /*width: 298px;*/
+}
+.profile-container {
+  display: flex;
+}
+
+.header__bell-container {
+  display: flex;
+  margin-right: 47px;
+  position: relative;
+}
+
+.header__bell {
+  background-image: url(../../../../../images/bell.svg);
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+
+.header__bell-counter-wrapper {
+  width: 16px;
+  height: 16px;
+  background-color: #FF2525;
+  border-radius: 50%;
+  position: absolute;
+  top: -8px;
+  right: -7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__bell-counter {
+  color: #7F8A9B;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.header__user-container {
+  display: flex;
+}
+
+.header__user-picture {
+  background-image: url(../../../../../images/userimg.svg);
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header__user-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin: 0;
+}
+
+.header__link-icon {
+  background-image: url(../../../../../images/linkicon.svg);
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  align-self: center;
+ /* width: 100px;
+  height: 100px;
+  background-color: aqua;
+  border: 2px solid red;*/
+}

@@ -1,0 +1,59 @@
+.help-and-inf__wrapper {
+
+}
+.help-and-inf__wrapper-ul {
+  padding: 0;
+  margin: 0;
+}
+
+.help-and-inf__container {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 27px;
+} 
+
+.help-and-inf__container:last-of-type {
+  margin-bottom: 0;
+}
+
+.help-and-inf__container {
+  opacity: 0.8;
+}
+
+.help-and-inf__link {
+  text-decoration: none;
+  color: #626D7D;
+  align-self: center;
+}
+
+.help-and-inf__img-general {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+} 
+
+.help-and-inf__qustion-mark {
+  background-image: url(../../../../../images/questionmarkicon.svg);
+  color: #626D7D;
+}
+
+.help-and-inf__logoicon {
+  background-image: url(../../../../../images/logoicon.svg);
+  color: #ADB3BE;
+}
+
+.help-and-inf__flag {
+  background-image: url(../../../../../images/flagicon.svg);
+  color: #ADB3BE;
+}
+
+.help-and-inf__choose-language-arrow {
+  background-image: url(../../../../../images/arrowup.svg);
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-left: 12px;
+}

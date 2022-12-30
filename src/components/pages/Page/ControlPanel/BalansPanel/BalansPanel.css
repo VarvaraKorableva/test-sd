@@ -1,0 +1,67 @@
+.balans-panel {
+  width: 436px;
+  height: 157px;
+  border-radius: 15px;
+  background-color: #fff;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.balans-panel__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.balans-panel__title {
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 47px;
+  text-align: start;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.balans-panel__amount {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 51px;
+  margin: 0;
+  margin-left: 20px;
+  text-align: start;
+}
+
+.balans-panel__amount-span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+}
+
+.balans-panel__btn {
+  width: 104px;
+  height: 36px;
+  border: none;
+  border-radius: 6px;
+  background-color: #EAEAFF;
+  color: #6266EB;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.balans-panel__btn:hover {
+  opacity: 0.8;
+}

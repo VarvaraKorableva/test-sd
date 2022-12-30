@@ -1,0 +1,65 @@
+.navigation {
+
+}
+
+.navigation__wrapper-ul {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation__container {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 27px;
+}
+
+.navigation__container:last-of-type {
+    margin-bottom: 0;
+}
+
+.navigation__container {
+  opacity: 0.8;
+}
+
+.navigation__link {
+  text-decoration: none;
+  color: #626D7D;
+  align-self: center;
+}
+
+.navigation__link_active {
+  color: #6266EB;
+}
+
+.navigation__img-general {
+  width: 24px;
+  height: 24px;
+  margin-right: 13px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.navigation__img-home {
+  background-image: url(../../../../../images/home.svg);
+}
+
+.navigation__img-basket {
+  background-image: url(../../../../../images/basket.svg);
+}
+
+.navigation__img-bag {
+  background-image: url(../../../../../images/bag.svg);
+}
+
+.navigation__img-person {
+  background-image: url(../../../../../images/person.svg);
+}
+
+.navigation__img-house {
+  background-image: url(../../../../../images/house.svg);
+}
+
+.navigation__img-loop {
+  background-image: url(../../../../../images/loop.svg);
+}
+

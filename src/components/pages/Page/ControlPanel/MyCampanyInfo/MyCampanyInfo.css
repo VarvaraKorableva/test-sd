@@ -1,0 +1,92 @@
+.my-campany-info {
+  background-color: #fff;
+  border-radius: 15px;
+  
+  margin-right: 32px;
+  width: 438px;
+  height: 157px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.my-campany-info__title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.my-campany-info__name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  margin-left: 20px;
+  margin-bottom: 6px;
+}
+.my-campany-info__short-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #7F8A9B;
+  margin: 0;
+  margin-bottom: 17px;
+  margin-left: 20px;
+}
+.my-campany-info__logo {
+  background-image: url(../../../../../images/smalllogosber.svg);
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+.my-campany-info__star-container {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.my-campany-info__star {
+  background-image: url(../../../../../images/Star.svg);
+  width: 22px;
+  height: 22px;
+  margin-right: 7px;
+}
+.my-campany-info__points {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+}
+.my-campany-info__function {
+  color: #6266EB;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.my-campany-info__function:hover {
+  opacity: 0.7;
+}
